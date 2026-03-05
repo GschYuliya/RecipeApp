@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="all">All</string>
+    <string name="app_name">Assistant culinaire</string>
+    <string name="title_main">Assistant culinaire</string>
+
+    <string name="breakfast">Petit dejeuner</string>
+    <string name="lunch">Dejeuner</string>
+    <string name="dinner">Diner</string>
+
+    <string name="pancakes">Crepes</string>
+    <string name="pasta">Pates</string>
+    <string name="salad">Salade</string>
+    <string name="omelet">Omelette</string>
+
+    <string name="recipe_pancakes">Ingredients:\n- Farine\n- Lait\n- Oeufs\n\nEtapes:\n1. Melanger les ingredients.\n2. Faire frire a la poele.</string>
+    <string name="recipe_pasta">Ingredients:\n- Pates\n- Sauce tomate\n- Fromage\n\nEtapes:\n1. Faire bouillir les pates.\n2. Ajouter la sauce.\n3. Ajouter le fromage.</string>
+    <string name="recipe_salad">Ingredients:\n- Tomates\n- Concombres\n- Huile d olive\n\nEtapes:\n1. Couper les legumes.\n2. Melanger et ajouter l huile.</string>
+    <string name="recipe_omelet">Ingredients:\n- 2 oeufs \n- Sel et poivre \n- Lait\n-  Beurre\n\nEtapes:\n1. Fouetter les œufs avec le lait, le sel et le poivre dans un bol.\n2. Verser le mélange dans la poêle et cuire en soulevant doucement les bords jusqu à ce que l omelette soit bien cuite.</string>
+
+    <string name="italian">Cuisine italienne</string>
+    <string name="russian">Cuisine russe</string>
+    <string name="french">Cuisine francaise</string>
+    <string name="choose_kitchen">Choisir la cuisine</string>
+
+    <string name="language">Langue</string>
+
+</resources>

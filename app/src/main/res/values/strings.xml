@@ -1,0 +1,27 @@
+<resources>
+    <string name="all">All</string>
+    <string name="app_name">Кулинарный помощник</string>
+
+    <string name="title_main">Кулинарный помощник</string>
+
+    <string name="breakfast">Завтрак</string>
+    <string name="lunch">Обед</string>
+    <string name="dinner">Ужин</string>
+
+    <string name="pancakes">Блины</string>
+    <string name="pasta">Паста</string>
+    <string name="salad">Салат</string>
+    <string name="omelet">Омлет</string>
+
+    <string name="recipe_pancakes">Ингредиенты:\n- Мука\n- Молоко\n- Яйца\n\nШаги:\n1. Смешать ингредиенты.\n2. Обжарить на сковороде.</string>
+    <string name="recipe_pasta">Ингредиенты:\n- Макароны\n- Томатный соус\n- Сыр\n\nШаги:\n1. Отварить макароны.\n2. Добавить соус.\n3. Посыпать сыром.</string>
+    <string name="recipe_salad">Ингредиенты:\n- Помидоры\n- Огурцы\n- Оливковое масло\n\nШаги:\n1. Нарезать овощи.\n2. Перемешать и добавить масло.</string>
+    <string name="recipe_omelet">Ингредиенты:\n- 2 яйца \n- Соль, перец \n- Молоко\n- Сливочное масло\n\nШаги:\n1. В миске взбей яйца с молоком, солью и перцем.\n2. Вылей смесь на сковороду и готовь, аккуратно поднимая края, пока омлет не схватится.</string>
+
+    <string name="italian">Итальянская кухня</string>
+    <string name="russian">Русская кухня</string>
+    <string name="french">Французская кухня</string>
+    <string name="choose_kitchen">Выберите кухню</string>
+
+    <string name="language">Язык</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="all">All</string>
+    <string name="app_name">Culinary Helper</string>
+
+    <string name="title_main">Culinary Helper</string>
+
+    <string name="breakfast">Breakfast</string>
+    <string name="lunch">Lunch</string>
+    <string name="dinner">Dinner</string>
+
+    <string name="pancakes">Pancakes</string>
+    <string name="pasta">Pasta</string>
+    <string name="salad">Salad</string>
+    <string name="omelet">Omelet</string>
+
+    <string name="recipe_pancakes">Ingredients:\n- Flour\n- Milk\n- Eggs\n\nSteps:\n1. Mix the ingredients.\n2. Fry in a pan.</string>
+    <string name="recipe_pasta">Ingredients:\n- Pasta\n- Tomato sauce\n- Cheese\n\nSteps:\n1. Boil the pasta.\n2. Add the sauce.\n3. Add the cheese.</string>
+    <string name="recipe_salad">Ingredients:\n- Tomatoes\n- Cucumbers\n- Olive oil\n\nSteps:\n1. Chop the vegetables.\n2. Mix and add the oil.</string>
+    <string name="recipe_omelet">Ingredients:\n- 2 eggs \n- Salt and pepper \n- Milk\n- Butter\n\nSteps:\n1. Beat the eggs with the milk, salt, and pepper in a bowl.\n2. Pour the mixture into the pan and cook, gently lifting the edges, until the omelette is set.</string>
+
+    <string name="italian">Italian cuisine</string>
+    <string name="russian">Russian cuisine</string>
+    <string name="french">French cuisine</string>
+    <string name="choose_kitchen">Choose cuisine</string>
+
+    <string name="language">language</string>
+</resources>
