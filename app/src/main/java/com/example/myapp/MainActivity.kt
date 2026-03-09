@@ -6,10 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import java.util.Locale
-import android.widget.TextView
 import android.content.Intent
-import android.widget.Spinner
-import android.widget.ArrayAdapter
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,20 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-        val spinner = findViewById<Spinner>(R.id.spinnerKitchen)
-
-        val kitchens = arrayOf(
-            getString(R.string.italian),
-            getString(R.string.russian),
-            getString(R.string.french)
-        )
-
-        val adapter = ArrayAdapter(this,
-            android.R.layout.simple_spinner_item, kitchens)
-
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-        spinner.adapter = adapter
 
         val languageButton = findViewById<Button>(R.id.buttonLanguage)
 
@@ -95,6 +78,7 @@ class MainActivity : AppCompatActivity() {
 
         resources.updateConfiguration(config, resources.displayMetrics)
     }
+
     private fun openCategory(category: String) {
         val intent = Intent(this, DishActivity::class.java)
         intent.putExtra("category", category)
