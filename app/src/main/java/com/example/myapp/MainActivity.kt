@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        // Загружаем сохранённый язык
         loadLocale()
 
         super.onCreate(savedInstanceState)
