@@ -23,5 +23,7 @@
     <string name="french">Французская кухня</string>
     <string name="choose_kitchen">Выберите кухню</string>
 
+    <string name="listen_recipe">Прослушать рецепт</string>
+
     <string name="language">Язык</string>
 </resources>

@@ -7,12 +7,12 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import java.util.Locale
 import android.content.Intent
+import android.media.MediaPlayer
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        // Загружаем сохранённый язык
         loadLocale()
 
         super.onCreate(savedInstanceState)
@@ -23,6 +23,9 @@ class MainActivity : AppCompatActivity() {
         val breakfastButton = findViewById<Button>(R.id.buttonBreakfast)
         val lunchButton = findViewById<Button>(R.id.buttonLunch)
         val dinnerButton = findViewById<Button>(R.id.buttonDinner)
+
+        val startSound = MediaPlayer.create(this, R.raw.start_sound)
+        startSound.start()
 
         breakfastButton.setOnClickListener {
             openCategory("breakfast")
@@ -80,6 +83,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openCategory(category: String) {
+
+        val clickSound = MediaPlayer.create(this, R.raw.click_sound)
+        clickSound.start()
+
         val intent = Intent(this, DishActivity::class.java)
         intent.putExtra("category", category)
         startActivity(intent)

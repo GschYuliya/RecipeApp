@@ -24,6 +24,8 @@
     <string name="french">Cuisine francaise</string>
     <string name="choose_kitchen">Choisir la cuisine</string>
 
+    <string name="listen_recipe">Écouter la recette</string>
+
     <string name="language">Langue</string>
 
 </resources>

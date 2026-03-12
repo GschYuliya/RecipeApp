@@ -23,5 +23,7 @@
     <string name="french">French cuisine</string>
     <string name="choose_kitchen">Choose cuisine</string>
 
+    <string name="listen_recipe">Listen to recipe</string>
+
     <string name="language">language</string>
 </resources>
