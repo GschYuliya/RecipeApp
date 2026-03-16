@@ -26,6 +26,15 @@
 
     <string name="listen_recipe">Écouter la recette</string>
 
+    <string name="timer_prepare_pan">Preheat the pan</string>
+    <string name="timer_fry">Frying pancakes</string>
+    <string name="timer_rest">Cooling</string>
+
+    <string name="start">Démarrer</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Réinitialiser</string>
+    <string name="seconds">Secondes</string>
+
     <string name="language">Langue</string>
 
 </resources>

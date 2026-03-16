@@ -25,5 +25,14 @@
 
     <string name="listen_recipe">Прослушать рецепт</string>
 
+    <string name="timer_prepare_pan">Разогрев сковороды</string>
+    <string name="timer_fry">Жарка блинов</string>
+    <string name="timer_rest">Остывание</string>
+
+    <string name="start">Старт</string>
+    <string name="pause">Пауза</string>
+    <string name="reset">Сброс</string>
+    <string name="seconds">Секунды</string>
+
     <string name="language">Язык</string>
 </resources>

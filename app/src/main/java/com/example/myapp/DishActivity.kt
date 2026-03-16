@@ -23,7 +23,6 @@ class DishActivity : AppCompatActivity() {
     private var selectedCuisine: String? = null
     private var selectedCategory: String? = null
 
-    // 🔥 Все блюда здесь (можешь добавлять новые)
     private val allDishes = listOf(
         Dish(R.string.pancakes, R.string.recipe_pancakes, "breakfast", "russian"),
         Dish(R.string.pasta, R.string.recipe_pasta, "lunch", "italian"),
